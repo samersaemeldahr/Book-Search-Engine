@@ -5,7 +5,7 @@
     "node": "v14.16.0",
     "npm": "6.14.11"
   },
-  "description": "",
+  "description": "This project allows users to create an account and utilize the RAWG API to search in a video game library. The user can add the title to their favorites page and view different parameters of that specific game such as rating. There is also a link to purchase the game.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -23,10 +23,16 @@
     "@apollo/client": "^3.3.21",
     "apollo-boost": "^0.4.9",
     "apollo-link-context": "^1.0.20",
-    "apollo-server-express": "^3.0.1",
-    "bcrypt": "^5.0.1",
-    "express": "^4.17.1",
+    "apollo-server-express": "^2.25.2",
     "graphql": "^15.5.1",
     "jsonwebtoken": "^8.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samersaemeldahr/Book-Search-Engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samersaemeldahr/Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/samersaemeldahr/Book-Search-Engine#readme"
 }
